@@ -1,0 +1,33 @@
+@media only screen and (min-width: 992px) {
+    .header-bottom .navbar .dropdown-menu-end {
+        margin-left: 0;
+        border: 0;
+    } 
+
+    .header-bottom .navbar .nav-link {
+        padding: 1rem;
+    }
+}
+
+@media only screen and (max-width: 991.98px) {
+    .header-bottom .navbar .dropdown-menu {
+        padding-left: 1rem;
+    } 
+}
+
+@media only screen and (min-width: 768px) {
+    .sidebar .collapse-filters {
+        display: block;
+    }
+    .sidebar .collapse-filters-btn {
+        display: none;
+
+    } 
+}
+
+@media only screen and (max-width: 500px) {
+    .product-contact-details .nav-tabs .nav-link {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}
